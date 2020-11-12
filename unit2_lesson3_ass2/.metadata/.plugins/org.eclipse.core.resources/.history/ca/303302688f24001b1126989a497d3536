@@ -1,0 +1,20 @@
+/*
+ ============================================================================
+ Name        : ex5.c
+ Author      : shady
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {char x;
+	printf("enter  :");
+		fflush(stdin);
+		fflush(stdout);
+		scanf("%c",&x);
+		printf("%d",x);
+}

@@ -1,0 +1,203 @@
+19:49:35 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Lesson3_ass1.o" "..\\src\\Unit2_Lesson3_ass1.c" 
+gcc -o ex1.exe "src\\Unit2_Lesson3_ass1.o" 
+Info: Nothing to build for ex1
+19:55:33 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+20:03:18 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+20:04:10 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for ex2
+20:13:03 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+20:18:03 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+20:26:38 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+20:42:11 **** Rebuild of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for ex6
+20:43:47 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for ex6
+20:56:51 **** Rebuild of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:14:12: warning: unused variable 'temp' [-Wunused-variable]
+  float a,b,temp;
+            ^~~~
+gcc -o ex7.exe "src\\ex7.o" 
+Info: Nothing to build for ex7
+20:57:49 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:02:36 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:03:12 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:03:16 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:07:55 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:08:07 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:20:14 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:20:47 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+00:22:28 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+00:22:28 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+00:25:45 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:25:51 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:27:53 **** Rebuild of configuration Debug for project ex7 intervew ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7 intervew.o" "..\\src\\ex7 intervew.c" 
+gcc -o "ex7 intervew.exe" "src\\ex7 intervew.o" 
+Info: Nothing to build for ex7 intervew
+00:28:56 **** Incremental Build of configuration Debug for project ex7 intervew ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7 intervew.o" "..\\src\\ex7 intervew.c" 
+gcc -o "ex7 intervew.exe" "src\\ex7 intervew.o" 
+Info: Nothing to build for ex7 intervew
+00:29:57 **** Incremental Build of configuration Debug for project ex7 intervew ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7 intervew.o" "..\\src\\ex7 intervew.c" 
+gcc -o "ex7 intervew.exe" "src\\ex7 intervew.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7 intervew.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:30:03 **** Incremental Build of configuration Debug for project ex7 intervew ****
+Info: Internal Builder is used for build
+gcc -o "ex7 intervew.exe" "src\\ex7 intervew.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7 intervew.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:37:17 **** Incremental Build of configuration Debug for project ex7 intervew ****
+Info: Internal Builder is used for build
+gcc -o "ex7 intervew.exe" "src\\ex7 intervew.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7 intervew.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:38:26 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:39:12 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:40:10 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:40:23 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:40:27 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:42:18 **** Incremental Build of configuration Debug for project ex7 intervew ****
+Info: Internal Builder is used for build
+gcc -o "ex7 intervew.exe" "src\\ex7 intervew.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7 intervew.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:43:17 **** Incremental Build of configuration Debug for project ex7 intervew ****
+Info: Internal Builder is used for build
+gcc -o "ex7 intervew.exe" "src\\ex7 intervew.o" 
+Info: Nothing to build for ex7 intervew
+00:48:20 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex7 intervew
+Info: Nothing to build for ex7 intervew
