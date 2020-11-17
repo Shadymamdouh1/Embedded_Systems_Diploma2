@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : ex7.c
+ Author      : shady
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char counter=0;
+		int i;
+		char x[100];
+		printf("enter string");
+		fflush(stdout);fflush(stdin);
+		gets(x);
+		for(i=0;x[i]!='\0';i++)
+		{
+			counter++;
+		}
+		printf("length of string : %d",counter);
+}

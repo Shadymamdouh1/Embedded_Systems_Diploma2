@@ -1,0 +1,612 @@
+18:31:06 **** Rebuild of configuration Debug for project lab1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab1.o" "..\\src\\lab1.c" 
+..\src\lab1.c: In function 'main':
+..\src\lab1.c:25:12: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  for (x=0;x,10;x++)
+            ^
+gcc -o lab1.exe "src\\lab1.o" 
+Info: Nothing to build for lab1
+Info: Nothing to build for lab1
+18:33:18 **** Incremental Build of configuration Debug for project lab1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab1.o" "..\\src\\lab1.c" 
+gcc -o lab1.exe "src\\lab1.o" 
+Info: Nothing to build for lab1
+18:34:22 **** Incremental Build of configuration Debug for project lab1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab1.o" "..\\src\\lab1.c" 
+gcc -o lab1.exe "src\\lab1.o" 
+Info: Nothing to build for lab1
+18:34:51 **** Incremental Build of configuration Debug for project lab1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab1.o" "..\\src\\lab1.c" 
+gcc -o lab1.exe "src\\lab1.o" 
+Info: Nothing to build for lab1
+18:58:37 **** Rebuild of configuration Debug for project lab2 solve polynomial using arrays ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab2 solve polynomial using arrays.o" "..\\src\\lab2 solve polynomial using arrays.c" 
+gcc -o "lab2 solve polynomial using arrays.exe" "src\\lab2 solve polynomial using arrays.o" 
+Info: Nothing to build for lab2 solve polynomial using arrays
+Info: Nothing to build for lab1
+Info: Nothing to build for lab2 solve polynomial using arrays
+02:12:53 **** Rebuild of configuration Debug for project lab3 tramspose matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab3 tramspose matrix.o" "..\\src\\lab3 tramspose matrix.c" 
+..\src\lab3 tramspose matrix.c: In function 'main':
+..\src\lab3 tramspose matrix.c:22:31: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+      printf("enter the item (%f,%f)\r\n",i,j);
+                               ^
+..\src\lab3 tramspose matrix.c:22:34: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+      printf("enter the item (%f,%f)\r\n",i,j);
+                                  ^
+..\src\lab3 tramspose matrix.c:25:16: warning: format '%f' expects a matching 'float *' argument [-Wformat=]
+      scanf("%f%f",&x[i][j]);
+                ^
+gcc -o "lab3 tramspose matrix.exe" "src\\lab3 tramspose matrix.o" 
+Info: Nothing to build for lab3 tramspose matrix
+02:16:04 **** Incremental Build of configuration Debug for project lab3 tramspose matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab3 tramspose matrix.o" "..\\src\\lab3 tramspose matrix.c" 
+gcc -o "lab3 tramspose matrix.exe" "src\\lab3 tramspose matrix.o" 
+Info: Nothing to build for lab3 tramspose matrix
+03:28:24 **** Rebuild of configuration Debug for project lab 3 strings1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab 3 strings1.o" "..\\src\\lab 3 strings1.c" 
+..\src\lab 3 strings1.c: In function 'main':
+..\src\lab 3 strings1.c:22:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   printf("%s \n",x);
+            ^
+..\src\lab 3 strings1.c:23:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   printf("%s \n",&x[0]);
+            ^
+..\src\lab 3 strings1.c:24:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   printf("%s \n",&x[1]);
+            ^
+..\src\lab 3 strings1.c:25:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   printf("%s \n",&x[2]);
+            ^
+..\src\lab 3 strings1.c:26:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'float *' [-Wformat=]
+   printf("%s \n",&x[3]);
+            ^
+gcc -o "lab 3 strings1.exe" "src\\lab 3 strings1.o" 
+Info: Nothing to build for lab1
+Info: Nothing to build for lab2 solve polynomial using arrays
+Info: Nothing to build for lab3 tramspose matrix
+Info: Nothing to build for lab 3 strings1
+03:29:05 **** Incremental Build of configuration Debug for project lab 3 strings1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab 3 strings1.o" "..\\src\\lab 3 strings1.c" 
+gcc -o "lab 3 strings1.exe" "src\\lab 3 strings1.o" 
+Info: Nothing to build for lab1
+Info: Nothing to build for lab2 solve polynomial using arrays
+Info: Nothing to build for lab3 tramspose matrix
+Info: Nothing to build for lab 3 strings1
+03:30:34 **** Incremental Build of configuration Debug for project lab 3 strings1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab 3 strings1.o" "..\\src\\lab 3 strings1.c" 
+gcc -o "lab 3 strings1.exe" "src\\lab 3 strings1.o" 
+Info: Nothing to build for lab 3 strings1
+04:53:26 **** Rebuild of configuration Debug for project lab3 array of strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab3 array of strings.o" "..\\src\\lab3 array of strings.c" 
+..\src\lab3 array of strings.c: In function 'main':
+..\src\lab3 array of strings.c:19:20: warning: array subscript has type 'char' [-Wchar-subscripts]
+   printf("%s\r\t",x[i]);
+                    ^
+gcc -o "lab3 array of strings.exe" "src\\lab3 array of strings.o" 
+Info: Nothing to build for lab 3 strings1
+Info: Nothing to build for lab3 array of strings
+Info: Nothing to build for lab3 array of strings
+04:55:55 **** Incremental Build of configuration Debug for project lab3 array of strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab3 array of strings.o" "..\\src\\lab3 array of strings.c" 
+..\src\lab3 array of strings.c: In function 'main':
+..\src\lab3 array of strings.c:19:21: warning: array subscript has type 'char' [-Wchar-subscripts]
+   printf("%s\r\t",&x[i]);
+                     ^
+..\src\lab3 array of strings.c:19:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[14]' [-Wformat=]
+   printf("%s\r\t",&x[i]);
+            ^
+gcc -o "lab3 array of strings.exe" "src\\lab3 array of strings.o" 
+Info: Nothing to build for lab3 array of strings
+Info: Nothing to build for lab3 array of strings
+Info: Nothing to build for lab3 array of strings
+04:58:12 **** Incremental Build of configuration Debug for project lab 3 strings1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab 3 strings1.o" "..\\src\\lab 3 strings1.c" 
+..\src\lab 3 strings1.c: In function 'main':
+..\src\lab 3 strings1.c:24:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s \n",x[1]);
+            ^
+gcc -o "lab 3 strings1.exe" "src\\lab 3 strings1.o" 
+Info: Nothing to build for lab 3 strings1
+04:59:11 **** Incremental Build of configuration Debug for project lab 3 strings1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab 3 strings1.o" "..\\src\\lab 3 strings1.c" 
+gcc -o "lab 3 strings1.exe" "src\\lab 3 strings1.o" 
+Info: Nothing to build for lab1
+Info: Nothing to build for lab2 solve polynomial using arrays
+Info: Nothing to build for lab3 array of strings
+Info: Nothing to build for lab3 tramspose matrix
+Info: Nothing to build for lab 3 strings1
+21:56:36 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:22:21: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+    printf(" Enter a%f%f",i+1,j+1);
+                     ^
+..\src\ex1.c:22:23: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+    printf(" Enter a%f%f",i+1,j+1);
+                       ^
+..\src\ex1.c:36:22: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+     printf(" Enter b%f%f",i+1,j+1);
+                      ^
+..\src\ex1.c:36:24: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+     printf(" Enter b%f%f",i+1,j+1);
+                        ^
+..\src\ex1.c:72:16: error: expected declaration or statement at end of input
+                }
+                ^
+..\src\ex1.c:72:16: error: expected declaration or statement at end of input
+21:57:08 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:22:21: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+    printf(" Enter a%f%f",i+1,j+1);
+                     ^
+..\src\ex1.c:22:23: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+    printf(" Enter a%f%f",i+1,j+1);
+                       ^
+..\src\ex1.c:36:22: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+     printf(" Enter b%f%f",i+1,j+1);
+                      ^
+..\src\ex1.c:36:24: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+     printf(" Enter b%f%f",i+1,j+1);
+                        ^
+..\src\ex1.c:73:16: error: expected declaration or statement at end of input
+                }
+                ^
+21:58:28 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:22:21: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+    printf(" Enter a%f%f",i+1,j+1);
+                     ^
+..\src\ex1.c:22:23: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+    printf(" Enter a%f%f",i+1,j+1);
+                       ^
+..\src\ex1.c:73:16: error: expected declaration or statement at end of input
+                }
+                ^
+21:58:41 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:73:16: error: expected declaration or statement at end of input
+                }
+                ^
+21:58:59 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:63:6: error: expected declaration or statement at end of input
+      }
+      ^
+21:59:24 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+22:00:39 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+22:01:44 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+22:03:28 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+22:06:30 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+22:06:43 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+22:09:37 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+22:20:10 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:12:54: error: redeclaration of 'sum' with no linkage
+  float m1[2][2];float m2[2][2];float sum[2][2];float sum[2][2];
+                                                      ^~~
+..\src\ex1.c:12:38: note: previous declaration of 'sum' was here
+  float m1[2][2];float m2[2][2];float sum[2][2];float sum[2][2];
+                                      ^~~
+22:20:52 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+22:44:43 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+..\src\ex2.c: In function 'main':
+..\src\ex2.c:20:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d",&arr[i]);
+          ^
+gcc -o ex2.exe "src\\ex2.o" 
+22:45:05 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for ex2
+22:57:51 **** Rebuild of configuration Debug for project ex3 tramspose matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab3 tramspose matrix.o" "..\\src\\lab3 tramspose matrix.c" 
+..\src\lab3 tramspose matrix.c: In function 'main':
+..\src\lab3 tramspose matrix.c:18:8: warning: unused variable 'b' [-Wunused-variable]
+  int a,b;
+        ^
+..\src\lab3 tramspose matrix.c:18:6: warning: unused variable 'a' [-Wunused-variable]
+  int a,b;
+      ^
+gcc -o "ex3 tramspose matrix.exe" "src\\lab3 tramspose matrix.o" 
+23:18:19 **** Incremental Build of configuration Debug for project ex3 tramspose matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab3 tramspose matrix.o" "..\\src\\lab3 tramspose matrix.c" 
+gcc -o "ex3 tramspose matrix.exe" "src\\lab3 tramspose matrix.o" 
+Info: Nothing to build for ex3 tramspose matrix
+Info: Nothing to build for ex3 tramspose matrix
+Info: Nothing to build for ex3 tramspose matrix
+23:19:49 **** Incremental Build of configuration Debug for project ex3 tramspose matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lab3 tramspose matrix.o" "..\\src\\lab3 tramspose matrix.c" 
+gcc -o "ex3 tramspose matrix.exe" "src\\lab3 tramspose matrix.o" 
+Info: Nothing to build for ex3 tramspose matrix
+Info: Nothing to build for ex3 tramspose matrix
+Info: Nothing to build for ex3 tramspose matrix
+23:23:02 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+23:24:44 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:43:3: error: expected declaration or statement at end of input
+   }
+   ^
+..\src\ex3.c:17:8: warning: unused variable 'y' [-Wunused-variable]
+  float y;
+        ^
+23:25:19 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+23:26:03 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+23:27:26 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:28:08 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+23:32:31 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3 tramspose matrix
+Info: Nothing to build for lab 3 strings1
+Info: Nothing to build for lab1
+Info: Nothing to build for lab2 solve polynomial using arrays
+Info: Nothing to build for lab3 array of strings
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+23:37:56 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:54:21: error: assignment to expression with array type
+                    y=x[i][j];
+                     ^
+..\src\ex3.c:56:31: error: incompatible types when assigning to type 'float' from type 'float (*)[(sizetype)(a)]'
+                        x[j][i]=y;
+                               ^
+23:38:26 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:24:9: warning: unused variable 'y' [-Wunused-variable]
+   float y[b][a];
+         ^
+gcc -o ex3.exe "src\\ex3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:39:04 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+23:40:35 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:24:9: warning: unused variable 'y' [-Wunused-variable]
+   float y[b][a];
+         ^
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+23:44:48 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:24:9: warning: unused variable 'y' [-Wunused-variable]
+   float y[b][a];
+         ^
+gcc -o ex3.exe "src\\ex3.o" 
+23:45:07 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+12:09:48 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+..\src\ex4.c: In function 'main':
+..\src\ex4.c:27:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d",&num);
+          ^
+..\src\ex4.c:40:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+      printf("%d",x[i]);
+               ^
+gcc -o ex4.exe "src\\ex4.o" 
+12:10:39 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+12:11:45 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+12:12:22 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+12:12:58 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+12:25:09 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+Info: Nothing to build for ex5
+12:26:15 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+Info: Nothing to build for ex5
+12:32:13 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+Info: Nothing to build for ex5
+13:04:31 **** Rebuild of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+..\src\ex6 strings.c: In function 'main':
+..\src\ex6 strings.c:19:7: warning: passing argument 1 of 'getc' from incompatible pointer type [-Wincompatible-pointer-types]
+  getc(x);
+       ^
+In file included from ..\src\ex6 strings.c:11:0:
+c:\mingw\include\stdio.h:693:43: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ __CRT_INLINE __cdecl __MINGW_NOTHROW  int getc (FILE * __F)
+                                           ^~~~
+..\src\ex6 strings.c:23:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+  for(i=0;x[i]!=0;i++)
+           ^
+..\src\ex6 strings.c:25:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+   if(x[i]==ch)
+       ^
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+13:05:37 **** Incremental Build of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+..\src\ex6 strings.c: In function 'main':
+..\src\ex6 strings.c:19:7: warning: passing argument 1 of 'getc' from incompatible pointer type [-Wincompatible-pointer-types]
+  getc(x);
+       ^
+In file included from ..\src\ex6 strings.c:11:0:
+c:\mingw\include\stdio.h:693:43: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ __CRT_INLINE __cdecl __MINGW_NOTHROW  int getc (FILE * __F)
+                                           ^~~~
+..\src\ex6 strings.c:23:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+  for(i=0;x[i]!='\0';i++)
+           ^
+..\src\ex6 strings.c:25:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+   if(x[i]==ch)
+       ^
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+13:06:15 **** Incremental Build of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+..\src\ex6 strings.c: In function 'main':
+..\src\ex6 strings.c:19:7: warning: passing argument 1 of 'getc' from incompatible pointer type [-Wincompatible-pointer-types]
+  getc(x);
+       ^
+In file included from ..\src\ex6 strings.c:11:0:
+c:\mingw\include\stdio.h:693:43: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ __CRT_INLINE __cdecl __MINGW_NOTHROW  int getc (FILE * __F)
+                                           ^~~~
+..\src\ex6 strings.c:23:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+  for(i=0;x[i]!='\0';i++)
+           ^
+..\src\ex6 strings.c:25:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+   if(x[i]=='ch')
+       ^
+..\src\ex6 strings.c:25:12: warning: multi-character character constant [-Wmultichar]
+   if(x[i]=='ch')
+            ^~~~
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+13:07:20 **** Incremental Build of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+..\src\ex6 strings.c: In function 'main':
+..\src\ex6 strings.c:19:7: warning: passing argument 1 of 'getc' from incompatible pointer type [-Wincompatible-pointer-types]
+  getc(x);
+       ^
+In file included from ..\src\ex6 strings.c:11:0:
+c:\mingw\include\stdio.h:693:43: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ __CRT_INLINE __cdecl __MINGW_NOTHROW  int getc (FILE * __F)
+                                           ^~~~
+..\src\ex6 strings.c:23:18: warning: array subscript has type 'char' [-Wchar-subscripts]
+  for(i=0;i<100&&x[i]!='\0';i++)
+                  ^
+..\src\ex6 strings.c:25:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+   if(x[i]=='ch')
+       ^
+..\src\ex6 strings.c:25:12: warning: multi-character character constant [-Wmultichar]
+   if(x[i]=='ch')
+            ^~~~
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+13:08:01 **** Incremental Build of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+..\src\ex6 strings.c: In function 'main':
+..\src\ex6 strings.c:19:7: warning: passing argument 1 of 'getc' from incompatible pointer type [-Wincompatible-pointer-types]
+  getc(x);
+       ^
+In file included from ..\src\ex6 strings.c:11:0:
+c:\mingw\include\stdio.h:693:43: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ __CRT_INLINE __cdecl __MINGW_NOTHROW  int getc (FILE * __F)
+                                           ^~~~
+..\src\ex6 strings.c:23:20: warning: array subscript has type 'char' [-Wchar-subscripts]
+  for(i=0;i<100 && x[i]!='\0';i++)
+                    ^
+..\src\ex6 strings.c:25:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+   if(x[i]==ch)
+       ^
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+13:08:34 **** Incremental Build of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+..\src\ex6 strings.c: In function 'main':
+..\src\ex6 strings.c:19:7: warning: passing argument 1 of 'getc' from incompatible pointer type [-Wincompatible-pointer-types]
+  getc(x);
+       ^
+In file included from ..\src\ex6 strings.c:11:0:
+c:\mingw\include\stdio.h:693:43: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ __CRT_INLINE __cdecl __MINGW_NOTHROW  int getc (FILE * __F)
+                                           ^~~~
+..\src\ex6 strings.c:22:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%d",&ch);
+          ^
+..\src\ex6 strings.c:23:20: warning: array subscript has type 'char' [-Wchar-subscripts]
+  for(i=0;i<100 && x[i]!='\0';i++)
+                    ^
+..\src\ex6 strings.c:25:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+   if(x[i]==ch)
+       ^
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+13:09:59 **** Incremental Build of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+..\src\ex6 strings.c: In function 'main':
+..\src\ex6 strings.c:20:7: warning: passing argument 1 of 'getc' from incompatible pointer type [-Wincompatible-pointer-types]
+  getc(x);
+       ^
+In file included from ..\src\ex6 strings.c:11:0:
+c:\mingw\include\stdio.h:693:43: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ __CRT_INLINE __cdecl __MINGW_NOTHROW  int getc (FILE * __F)
+                                           ^~~~
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+13:10:32 **** Incremental Build of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+..\src\ex6 strings.c: In function 'main':
+..\src\ex6 strings.c:20:7: warning: passing argument 1 of 'getc' from incompatible pointer type [-Wincompatible-pointer-types]
+  getc(&x[0]);
+       ^
+In file included from ..\src\ex6 strings.c:11:0:
+c:\mingw\include\stdio.h:693:43: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ __CRT_INLINE __cdecl __MINGW_NOTHROW  int getc (FILE * __F)
+                                           ^~~~
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+Info: Nothing to build for ex6 strings
+13:11:15 **** Incremental Build of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+Info: Nothing to build for ex6 strings
+13:12:09 **** Incremental Build of configuration Debug for project ex6 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6 strings.o" "..\\src\\ex6 strings.c" 
+gcc -o "ex6 strings.exe" "src\\ex6 strings.o" 
+Info: Nothing to build for ex6 strings
+13:20:11 **** Rebuild of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+Info: Nothing to build for ex7
+13:30:18 **** Rebuild of configuration Debug for project ex8 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8 strings.o" "..\\src\\ex8 strings.c" 
+..\src\ex8 strings.c: In function 'main':
+..\src\ex8 strings.c:21:8: warning: implicit declaration of function 'getlen' [-Wimplicit-function-declaration]
+  len = getlen(x);
+        ^~~~~~
+..\src\ex8 strings.c:15:7: warning: unused variable 'counter' [-Wunused-variable]
+  char counter=0;
+       ^~~~~~~
+gcc -o "ex8 strings.exe" "src\\ex8 strings.o" 
+src\ex8 strings.o: In function `main':
+C:\Users\HP\workspace\C_Programming\unit2_lesson4_labs&assignments\ex8 strings\Debug/../src/ex8 strings.c:21: undefined reference to `getlen'
+collect2.exe: error: ld returned 1 exit status
+13:31:24 **** Incremental Build of configuration Debug for project ex8 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8 strings.o" "..\\src\\ex8 strings.c" 
+..\src\ex8 strings.c: In function 'main':
+..\src\ex8 strings.c:16:6: warning: unused variable 'len' [-Wunused-variable]
+  int len,i;
+      ^~~
+gcc -o "ex8 strings.exe" "src\\ex8 strings.o" 
+13:31:36 **** Incremental Build of configuration Debug for project ex8 strings ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8 strings.o" "..\\src\\ex8 strings.c" 
+gcc -o "ex8 strings.exe" "src\\ex8 strings.o" 
+Info: Nothing to build for ex8 strings

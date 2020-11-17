@@ -1,0 +1,38 @@
+/*
+ ============================================================================
+ Name        : ex5.c
+ Author      : shady
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int n,i;
+		float num;float x[30];
+		printf("enter number of elements");
+		fflush(stdout);fflush(stdin);
+		scanf("%d",&n);
+		for(i=0;i<n;i++)
+		{
+			scanf("%f",&x[i]);
+		}
+		printf("enter the element to be searched :");
+		fflush(stdout);fflush(stdin);
+		scanf("%f",&num);
+		for(i=0;i<n;i++)
+		{
+			if(num==x[i])
+			{
+				printf("the number is found in location : %d",i+1);
+				break;
+			}
+			else if(num!=x[n-1])
+				printf("the number is not found ");
+								break;
+		}
+}

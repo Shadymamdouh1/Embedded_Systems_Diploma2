@@ -1,0 +1,72 @@
+/*
+ ============================================================================
+ Name        : ex3.c
+ Author      : shady
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a,b;
+
+	float y;
+	int i,j;
+	printf("enter row and column of matrix :");
+	 fflush(stdin);
+	 fflush(stdout);
+	 scanf("%d%d",&a,&b);
+	 float x[a][b];
+	 printf("enter elements of matrix :\r\n");
+	for (i=0;i<a;i++)
+	{
+		for(j=0;j<b;j++)
+		    {
+			  printf("enter element a%d%d :\r\n",i+1,j+1);
+			  fflush(stdin);
+			  fflush(stdout);
+			  scanf("%f",&x[i][j]);
+		    }
+	}
+	printf("the matrix is :");
+	for (i=0;i<a;i++)
+		{
+		   printf("\r\n");
+			for(j=0;j<b;j++)
+			    {
+				  printf("%f\t",x[i][j]);
+
+			    }
+
+}
+	for (i=0;i<a;i++)
+		{
+			for(j=0;j<b;j++)
+			    {
+				  if(i==j)
+				  {continue;}
+				  else if (j<i){
+					              y=x[i][j];
+					              x[i][j]=x[j][i];
+				                   x[j][i]=y;
+				  }
+				  }
+			    }
+	printf("the transpose is :");
+		for (i=0;i<a;i++)
+			{
+			   printf("\r\n");
+				for(j=0;j<b;j++)
+				    {
+					  printf("%f\t",x[i][j]);
+
+				    }
+			}
+
+
+}
+
