@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : ex3.c
+ Author      : shady
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <strings.h>
+void reverse(char *ptr, char length);
+int main(void) {
+	char x[40];
+	int length;
+	printf("Enter a sentence : ");
+	fflush(stdin);fflush(stdout);
+	gets(x);
+	length= strlen(x);
+	reverse(x,length);
+}
+void reverse(char *ptr, char length)
+{
+printf("length is %d:",length);
+
+}

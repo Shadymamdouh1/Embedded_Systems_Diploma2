@@ -1,0 +1,219 @@
+23:30:45 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:19:2: error: too many arguments to function 'prime_mun'
+  prime_mun(i,j);
+  ^~~~~~~~~
+..\src\ex1.c:13:5: note: declared here
+ int prime_mun(int x);
+     ^~~~~~~~~
+..\src\ex1.c:22:5: warning: implicit declaration of function 'prime_num' [-Wimplicit-function-declaration]
+   a=prime_num(y);
+     ^~~~~~~~~
+23:31:19 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:19:2: warning: implicit declaration of function 'prime_num' [-Wimplicit-function-declaration]
+  prime_num(i,j);
+  ^~~~~~~~~
+gcc -o ex1.exe "src\\ex1.o" 
+src\ex1.o: In function `main':
+C:\Users\HP\workspace\C_Programming\unit2_lesson5_assignments\ex1\Debug/../src/ex1.c:19: undefined reference to `prime_num'
+C:\Users\HP\workspace\C_Programming\unit2_lesson5_assignments\ex1\Debug/../src/ex1.c:22: undefined reference to `prime_num'
+collect2.exe: error: ld returned 1 exit status
+23:31:47 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:19:2: error: too many arguments to function 'prime_num'
+  prime_num(i,j);
+  ^~~~~~~~~
+..\src\ex1.c:13:5: note: declared here
+ int prime_num(int x);
+     ^~~~~~~~~
+23:32:19 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+23:36:10 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:25:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("\t",y);
+           ^~~~
+gcc -o ex1.exe "src\\ex1.o" 
+23:37:36 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+23:52:17 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for ex2
+23:55:14 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for ex2
+00:24:41 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c:14:24: error: unknown type name 'length'
+ void reverse(char *ptr,length);
+                        ^~~~~~
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:21:9: warning: implicit declaration of function 'getlen' [-Wimplicit-function-declaration]
+  length=getlen(x);
+         ^~~~~~
+..\src\ex3.c:22:2: warning: implicit declaration of function 'reverse' [-Wimplicit-function-declaration]
+  reverse(x,length);
+  ^~~~~~~
+..\src\ex3.c: At top level:
+..\src\ex3.c:24:6: warning: conflicting types for 'reverse'
+ void reverse(char *ptr, char length)
+      ^~~~~~~
+..\src\ex3.c:22:2: note: previous implicit declaration of 'reverse' was here
+  reverse(x,length);
+  ^~~~~~~
+..\src\ex3.c: In function 'reverse':
+..\src\ex3.c:26:8: warning: too many arguments for format [-Wformat-extra-args]
+ printf("length is :",length);
+        ^~~~~~~~~~~~~
+00:25:08 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:21:9: warning: implicit declaration of function 'getlen' [-Wimplicit-function-declaration]
+  length=getlen(x);
+         ^~~~~~
+gcc -o ex3.exe "src\\ex3.o" 
+src\ex3.o: In function `main':
+C:\Users\HP\workspace\C_Programming\unit2_lesson5_assignments\ex3\Debug/../src/ex3.c:21: undefined reference to `getlen'
+collect2.exe: error: ld returned 1 exit status
+00:29:12 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  length= strlen(x);
+          ^~~~~~
+..\src\ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe "src\\ex3.o" 
+00:29:36 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  length= strlen(x);
+          ^~~~~~
+..\src\ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+00:30:31 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  length= strlen(x);
+          ^~~~~~
+..\src\ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+00:37:00 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  length= strlen(x);
+          ^~~~~~
+..\src\ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\ex3.c: In function 'reverse':
+..\src\ex3.c:29:10: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char **' [-Wformat=]
+ printf("%c",&ptr);
+          ^
+gcc -o ex3.exe "src\\ex3.o" 
+00:37:25 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  length= strlen(x);
+          ^~~~~~
+..\src\ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\ex3.c: In function 'reverse':
+..\src\ex3.c:29:10: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+ printf("%c",ptr);
+          ^
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+00:38:16 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  length= strlen(x);
+          ^~~~~~
+..\src\ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\ex3.c: In function 'reverse':
+..\src\ex3.c:29:10: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char **' [-Wformat=]
+ printf("%c",&ptr);
+          ^
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+01:01:52 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'reverse':
+..\src\ex3.c:24:9: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+ scanf("%c",c);
+         ^
+..\src\ex3.c:24:1: warning: 'c' is used uninitialized in this function [-Wuninitialized]
+ scanf("%c",c);
+ ^~~~~~~~~~~~~
+gcc -o ex3.exe "src\\ex3.o" 
+01:19:18 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+01:45:49 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+01:48:17 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+..\src\ex4.c: In function 'power_cal':
+..\src\ex4.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o ex4.exe "src\\ex4.o" 
+01:48:42 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+01:52:18 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+01:52:56 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4

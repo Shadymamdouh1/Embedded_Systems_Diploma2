@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ calculate the power using recursion
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int sum;
+int power_cal(int i, int j);
+int main(void) {
+int base,power,result;
+printf("Enter base number");
+fflush(stdin);fflush(stdout);
+scanf("%d",&base);
+printf("Enter power number (positive)");
+fflush(stdin);fflush(stdout);
+scanf("%d",&power);
+result=power_cal(base,power);
+printf("%d^%d = %d",base,power,result);
+
+}
+int power_cal(int i, int j)
+{
+	if(j>0)
+		{sum=i*i;
+	    j--;
+	    power_cal(i,j);
+
+		}
+	return i ;
+}
