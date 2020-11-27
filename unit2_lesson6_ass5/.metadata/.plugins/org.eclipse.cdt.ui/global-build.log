@@ -1,0 +1,82 @@
+00:37:45 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:18:21: warning: unused variable 'y' [-Wunused-variable]
+  struct Sstudents x,y;
+                     ^
+..\src\ex1.c: In function 'read_struct':
+..\src\ex1.c:28:6: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+ gets(&x.name);
+      ^
+In file included from ..\src\ex1.c:7:0:
+c:\mingw\include\stdio.h:676:41: note: expected 'char *' but argument is of type 'char (*)[50]'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char * gets (char *);
+                                         ^~~~
+..\src\ex1.c: In function 'print_struct':
+..\src\ex1.c:41:18: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  printf("name : %s \n roll : %d \n marks : %.2f\n ",&x.name,x.roll,x.marks);
+                  ^
+gcc -o ex1.exe "src\\ex1.o" 
+00:38:38 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'print_struct':
+..\src\ex1.c:41:18: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  printf("name : %s \n roll : %d \n marks : %.2f\n ",&x.name,x.roll,x.marks);
+                  ^
+gcc -o ex1.exe "src\\ex1.o" 
+00:39:03 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+00:41:56 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+01:26:58 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for ex2
+01:28:26 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for ex2
+01:50:03 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for ex3
+02:24:09 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+..\src\ex4.c: In function 'main':
+..\src\ex4.c:31:54: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char (*)[50]' [-Wformat=]
+   printf("information of roll number %d : \n Name : %s\n Marks : %.2f",x[i].roll,&x[i].name,x[i].marks);
+                                                      ^
+gcc -o ex4.exe "src\\ex4.o" 
+02:24:32 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+02:28:25 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4
+02:44:51 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+02:46:05 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+Info: Nothing to build for ex5

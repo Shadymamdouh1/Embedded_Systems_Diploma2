@@ -1,0 +1,34 @@
+/*
+ ============================================================================
+program to enter 10 students data using structure
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+struct Sstudents
+{
+	char name[50];
+	int roll;
+	float marks;
+};
+int main(void) {
+	struct Sstudents x[10];
+	int i;
+	printf("Enter information of students\n");
+	for(i=0;i<10;i++)
+	{   x[i].roll=i;
+	printf("For roll number %d\n Enter name :",i+1);
+	fflush(stdin);fflush(stdout);
+	gets(x[i].name);
+	printf("Enter marks :");
+	fflush(stdin);fflush(stdout);
+	scanf("%f",&x[i].marks);
+	}
+	printf("Displaying information of students\n");
+	for(i=0;i<10;i++)
+	{
+	printf("information of roll number %d : \n Name : %s\n Marks : %.2f \n",x[i].roll,x[i].name,x[i].marks);
+	}
+
+}
